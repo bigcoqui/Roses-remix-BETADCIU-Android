@@ -26,6 +26,12 @@ class HealthIcon extends FlxSprite
 		animation.add('mom-car', [6, 7], 0, false, isPlayer);
 		animation.add('tankman', [8, 9], 0, false, isPlayer);
 		animation.add('face', [10, 11], 0, false, isPlayer);
+		animation.add('bf-tankman-pixel', [10, 11], 0, false, isPlayer);
+		animation.add('bf-sonic-pixel', [10, 11], 0, false, isPlayer);
+		animation.add('bf-rico-pixel', [10, 11], 0, false, isPlayer);
+		animation.add('bf-tom-pixel', [10, 11], 0, false, isPlayer);
+		animation.add('spooky-pixel', [10, 11], 0, false, isPlayer);
+		animation.add('miku-pixel', [10, 11], 0, false, isPlayer);
 		animation.add('dad', [12, 13], 0, false, isPlayer);
 		animation.add('senpai', [22, 22], 0, false, isPlayer);
 		animation.add('senpai-angry', [22, 22], 0, false, isPlayer);
