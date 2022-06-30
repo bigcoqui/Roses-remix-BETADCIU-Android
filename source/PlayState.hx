@@ -3689,6 +3689,37 @@ class PlayState extends MusicBeatState
 			notes.sort(FlxSort.byY, (PlayStateChangeables.useDownscroll ? FlxSort.ASCENDING : FlxSort.DESCENDING));
 		}
 
+		if (curSong == 'Roses-Remix')
+		{
+		  switch (curBeat)
+		  {
+		    case 24:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(970, 670, 'bf-pixel');
+		       add(boyfriend);
+		    case 41:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(970, 670, 'bf-sonic-pixel');
+		       add(boyfriend);
+		    case 56:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(970, 670, 'bf-sonic-pixel');
+		       add(boyfriend);
+		    case 72:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(970, 670, 'bf-tom-pixel');
+		       add(boyfriend);
+		    case 88:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(870, 370, 'spooky-pixel');
+		       add(boyfriend);
+		    case 104:
+		       remove(boyfriend);
+		       boyfriend = new Boyfriend(970, 470, 'miku-pixel');
+		       add(boyfriend);
+		  }
+		}
+
 		#if windows
 		if (executeModchart && luaModchart != null)
 		{
