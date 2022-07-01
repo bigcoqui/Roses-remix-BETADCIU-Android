@@ -168,7 +168,17 @@ class Character extends FlxSprite
 				animation.addByPrefix('singRIGHTmiss', 'BF RIGHT MISS', 24, false);
 				animation.addByPrefix('singDOWNmiss', 'BF DOWN MISS', 24, false);
 
-				loadOffsetFile(curCharacter);
+				addOffset('idle');
+				addOffset('idle-alt');
+				addOffset("singUP");
+				addOffset("singUP-alt");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
+				addOffset("singUPmiss");
+				addOffset("singRIGHTmiss");
+				addOffset("singLEFTmiss");
+				addOffset("singDOWNmiss");
 
 				setGraphicSize(Std.int(width * 6));
 				updateHitbox();
@@ -316,7 +326,7 @@ class Character extends FlxSprite
 
 				antialiasing = false;
 
-	   case 'bf-tom-pixel':
+	    case 'bf-tom-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-tomPixel', 'shared');
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
