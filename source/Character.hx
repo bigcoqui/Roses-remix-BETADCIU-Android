@@ -286,7 +286,6 @@ class Character extends FlxSprite
 
 			case 'spooky-pixel':
 				frames = Paths.getSparrowAtlas('characters/spooky_pixel');
-				iconColor = 'FFD57E00';
 				animation.addByPrefix('singUP', 'spooky UP NOTE', 24, false);
 				animation.addByPrefix('singDOWN', 'spooky DOWN note', 24, false);
 				animation.addByPrefix('singLEFT', 'note sing left', 24, false);
