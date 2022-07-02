@@ -122,6 +122,7 @@ class Character extends FlxSprite
 
 			case 'bf-pixel':
 				frames = Paths.getSparrowAtlas('characters/bfPixel');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
 				animation.addByPrefix('singLEFT', 'BF LEFT NOTE', 24, false);
@@ -156,6 +157,7 @@ class Character extends FlxSprite
 
 			case 'bf-tankman-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-tankmanPixel', 'shared');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('idle-alt', 'BF ALT IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
@@ -194,6 +196,7 @@ class Character extends FlxSprite
 
 			case 'bf-sonic-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-sonicPixel', 'shared');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
 				animation.addByPrefix('singLEFT', 'BF LEFT NOTE', 24, false);
@@ -228,6 +231,7 @@ class Character extends FlxSprite
 
 			case 'bf-rico-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-ricoPixel', 'shared');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
 				animation.addByPrefix('singLEFT', 'BF LEFT NOTE', 24, false);
@@ -262,6 +266,7 @@ class Character extends FlxSprite
 
 			case 'bf-tom-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-tomPixel', 'shared');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
 				animation.addByPrefix('singLEFT', 'BF LEFT NOTE', 24, false);
@@ -296,6 +301,7 @@ class Character extends FlxSprite
 
 			case 'spooky-pixel':
 				frames = Paths.getSparrowAtlas('characters/spooky_pixel');
+				frames = tex;
 				animation.addByPrefix('singUP', 'spooky UP NOTE', 24, false);
 				animation.addByPrefix('singDOWN', 'spooky DOWN note', 24, false);
 				animation.addByPrefix('singLEFT', 'note sing left', 24, false);
@@ -328,6 +334,7 @@ class Character extends FlxSprite
 
 	    case 'bf-tom-pixel':
 				frames = Paths.getSparrowAtlas('roses-remix shit/bfs/bf-tomPixel', 'shared');
+				frames = tex;
 				animation.addByPrefix('idle', 'BF IDLE', 24, false);
 				animation.addByPrefix('singUP', 'BF UP NOTE', 24, false);
 				animation.addByPrefix('singLEFT', 'BF LEFT NOTE', 24, false);
